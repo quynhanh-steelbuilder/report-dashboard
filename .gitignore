@@ -1,0 +1,14 @@
+# Chặn mặc định mọi file; chỉ mở các đường dẫn được phép đưa lên repo công khai.
+# (Chỉ giảm khả năng thêm nhầm file mới; vẫn phải kiểm tra trước mỗi lần push.)
+*
+!.gitignore
+!.nojekyll
+!README.md
+!index.html
+!css/
+!css/styles.css
+!js/
+!js/mock-generator.js
+!js/data-provider.js
+!js/charts.js
+!js/app.js
